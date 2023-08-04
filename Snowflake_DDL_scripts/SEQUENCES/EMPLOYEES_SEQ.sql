@@ -1,0 +1,3 @@
+CREATE SEQUENCE "EMPLOYEES_SEQ" MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 207 NOCACHE NOORDER NOCYCLE NOKEEP NOSCALE GLOBAL
+
+No conversion needed as the data types used in the Oracle DDL statement are compatible with Snowflake's data types.

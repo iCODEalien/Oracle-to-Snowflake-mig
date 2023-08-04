@@ -1,0 +1,3 @@
+CREATE TABLE "STR_" 
+   (	"STRG" CHAR(5)
+   )

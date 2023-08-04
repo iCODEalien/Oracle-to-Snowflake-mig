@@ -1,0 +1,10 @@
+--------------------------------------------------------
+--  Constraints for Table BRICKS
+--------------------------------------------------------
+
+  ALTER TABLE "BRICKS" MODIFY ("BRICK_ID" NOT NULL ENABLE)
+  ALTER TABLE "BRICKS" MODIFY ("COLOUR_RGB_VALUE" NOT NULL ENABLE)
+  ALTER TABLE "BRICKS" MODIFY ("SHAPE" NOT NULL ENABLE)
+  ALTER TABLE "BRICKS" MODIFY ("WEIGHT" NOT NULL ENABLE)
+  ALTER TABLE "BRICKS" ADD PRIMARY KEY ("BRICK_ID")
+  USING INDEX  ENABLE
